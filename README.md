@@ -83,7 +83,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+
 
 </div>
 
@@ -95,15 +95,14 @@
 
 - 📦 **Node.js** (v18 or higher)
 - 🍃 **MongoDB** (local installation or Atlas cloud)
-- 🔑 **OpenAI API Key** (for chatbot functionality)
 - 🐙 **Git** (for cloning the repository)
 
 ### ⚡ Installation
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/your-username/interactive-dashboard.git
-cd interactive-dashboard
+git clone https://github.com/DeepjyotiRoy01/Dashboards.git
+cd Dashboards
 
 # 2️⃣ Install server dependencies
 cd server
@@ -283,29 +282,6 @@ npm run dev
 
 ---
 
-## 🎨 Screenshots
-
-<div align="center">
-
-### 🏠 Main Dashboard
-![Dashboard Overview](https://via.placeholder.com/800x400/1976d2/ffffff?text=Interactive+Dashboard+Overview)
-
-### 📈 Analytics Dashboard
-![Analytics](https://via.placeholder.com/800x400/2196f3/ffffff?text=Analytics+Dashboard+with+Charts)
-
-### 💰 Sales Dashboard
-![Sales](https://via.placeholder.com/800x400/4caf50/ffffff?text=Sales+Performance+Dashboard)
-
-### 📢 Marketing Dashboard
-![Marketing](https://via.placeholder.com/800x400/ff9800/ffffff?text=Marketing+Analytics+Dashboard)
-
-### 🤖 AI Chatbot Interface
-![Chatbot](https://via.placeholder.com/800x400/9c27b0/ffffff?text=AI+Chatbot+with+Predefined+Responses)
-
-### 🎨 Theme Selection
-![Themes](https://via.placeholder.com/800x400/795548/ffffff?text=Dark+Light+Theme+Toggle)
-
-</div>
 
 ---
 
@@ -331,11 +307,6 @@ lsof -ti:5000 | xargs kill -9  # macOS/Linux
 netstat -ano | findstr :5000  # Windows
 ```
 
-### ❌ **OpenAI API Issues**
-- Ensure your OpenAI API key is valid and has credits
-- Check the `.env` file configuration
-- Verify network connectivity
-
 ### ❌ **Build Errors**
 ```bash
 # Clear node_modules and reinstall
@@ -351,8 +322,6 @@ npm run dev -- --force
 ---
 
 ## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 1. 🍴 Fork the repository
 2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -373,7 +342,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🎨 **Material-UI (MUI)** for the beautiful component library
 - 📊 **Chart.js** for amazing data visualization
 - ✨ **Framer Motion** for smooth animations
-- 🤖 **OpenAI** for AI chatbot capabilities
 - ⚡ **Vite** for lightning-fast development
 - 🚀 **React** for the incredible frontend framework
 - 🖥️ **Express.js** for robust backend API
@@ -386,9 +354,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 🌟 Star this repository if you found it helpful!
 
-**Made with ❤️ by [Your Name](https://github.com/your-username)**
+**Made with ❤️ by [Deepjyoti Roy](https://github.com/DeepjyotiRoy01)**
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/interactive-dashboard.svg?style=social&label=Star)](https://github.com/your-username/interactive-dashboard)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/interactive-dashboard.svg?style=social&label=Fork)](https://github.com/your-username/interactive-dashboard/fork)
+[![GitHub stars](https://img.shields.io/github/stars/DeepjyotiRoy01/Dashboards.svg?style=social&label=Star)](https://github.com/DeepjyotiRoy01/Dashboards.git)
+[![GitHub forks](https://img.shields.io/github/forks/DeepjyotiRoy01/Dashboards.svg?style=social&label=Fork)](https://github.com/DeepjyotiRoy01/Dashboards/fork)
 
 </div>
